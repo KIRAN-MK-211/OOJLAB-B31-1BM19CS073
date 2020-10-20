@@ -12,8 +12,10 @@ class actor
   static double highavg=0;
   static int index = -1;
   Scanner in = new Scanner(System.in);
+
   void accept(int i)
   {
+
     System.out.println("========Enter data of Actor :"+(i+1)+"========");
     System.out.println("Enter the ID of actor:");
     id = in.next();
@@ -23,6 +25,7 @@ class actor
     no_of_movies = in.nextInt();
     System.out.println("Enter the experience in years");
     no_of_years = in.nextInt();
+    index = i;
   }
   void cal(int i)
   {
