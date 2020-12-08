@@ -23,6 +23,8 @@ class NewThread implements Runnable
 			
 			else
 			{
+				//This segment is left blank intentionally. The reason being, 2 parameters need to be passed to the constructor, a string and an integer.
+				//Even the main thread needs to pass a parameter, so it passes 0. And hence execution happens without going through this segment.
 			}
 			Thread.sleep(1000);
 		} 
